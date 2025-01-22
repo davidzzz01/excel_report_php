@@ -1,0 +1,19 @@
+{
+    "name": "dev-05/excel",
+    "description": "Exportar excel com php",
+    "autoload": {
+        "psr-4": {
+            "Dev05\\Excel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "davidzzz01",
+            "email": "davidjose001@outlook.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.8"
+    }
+}
